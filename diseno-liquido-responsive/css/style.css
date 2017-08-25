@@ -1,0 +1,72 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+width: 96%;
+margin: 0 auto;
+background-image: url(/img/verjurado.jpg);
+background-repeat: no-repeat;
+    background-size:cover;
+font-family: "Palatino", monospace;
+
+
+
+}
+.container{
+width: 80%;
+max-width: 1000px;
+
+    
+}
+h1{
+text-align: center;
+
+
+}
+h1{
+color: brown;
+}
+h2{
+color: brown;
+}
+
+h1,h2{
+font-family: monospace;
+}
+ .comienzo{
+width: 25%;
+
+display: inline-block;
+     vertical-align: top;
+
+
+
+}
+ .comentario{
+width: 74%;
+
+     display: inline-block;
+     vertical-align: top;
+}
+.comentario li {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+
+}
+@media( max-width:470px){
+body{
+width: 90%;
+display: block;
+    }
+    @media print {
+        h1,h2{
+        
+        color: aliceblue}
+    }
+    
+                       
+    
